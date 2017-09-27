@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+  background-image: url("http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_720/images/live/p0/52/j5/p052j5kp.jpg");
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.center {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: "Indie Flower";
+}
+
+img{
+  width: 200px;
+  float: left;
+}
+
+.label{
+  position: absolute;
+}
+.float {
+  float: left;
+  margin: 0px 10px;
+}
+.centered {
+  width: 900px;
+  margin: 0 auto;
+}
