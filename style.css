@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower');
 
 body {
   background-image: url("http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_720/images/live/p0/52/j5/p052j5kp.jpg");
@@ -7,7 +7,7 @@ body {
 }
 
 
-.center {
+.center-text {
   text-align: center;
 }
 
@@ -18,10 +18,12 @@ h1, h2 {
 img{
   width: 200px;
   float: left;
+  border-radius: 16px;
 }
 
 .label{
   position: absolute;
+  margin: 10px 10px;
 }
 .float {
   float: left;
@@ -30,4 +32,7 @@ img{
 .centered {
   width: 900px;
   margin: 0 auto;
+}
+p {
+  font-family: "Dancing Script";
 }
